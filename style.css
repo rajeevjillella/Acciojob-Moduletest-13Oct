@@ -3,10 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.jca{
+
+    justify-content: space-around;
+}
 body{
     font-family: 'Outfit', sans-serif;
 }
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
 
+.w30{
+    width: 30%;
+}
+
+.wrp{
+    text-wrap: wrap;
+}
+
+.co-icon{
+    display: flex;
+    justify-content: end;
+}
 nav{
 
     justify-content: space-between;
@@ -43,11 +66,16 @@ a {
 .jc{
     justify-content: center;
 }
-.g1{
+.g12{
     gap: 12px;
 }
 
-.g2{
+.jcb{
+    justify-content: space-between;
+}
+
+
+.g24{
     gap: 24px;
 }
 
@@ -284,6 +312,10 @@ background-clip: text;
 /* color: #2F80ED; */
 }
 
+.titles{
+    margin-bottom: 60px;
+}
+
 .companies{
     padding: 80px 0px;
     display: flex;
@@ -332,6 +364,28 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 54px */
 letter-spacing: -0.54px;
+}
+
+.topStartups{
+
+    color: var(--BLACK, #2B2F34);
+
+    text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 54px */
+letter-spacing: -0.54px;    
+}
+
+.FromAccioJobupto41Lakhs{
+    color: var(--textlabelcolorscharcoal, #595959);
+font-family: ?????;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 23.4px */
+letter-spacing: 0.36px;
 }
 
 .sapling{
@@ -520,6 +574,15 @@ letter-spacing: 0.36px;
     padding: 80px 90px;
 }
 
+.companies{
+
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 80px 90px;
+
+}
+
 .virat{
     display: inline-flex;
 padding: 24px;
@@ -534,5 +597,22 @@ box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 
 .testimonials{
 
-    gap: 24px;
+    
+}
+
+.testimonial1{
+    
+    flex-direction: column;
+
+}
+
+.border{
+
+    border: 2px solid green;
+}
+
+.partnerslogos{
+
+    flex-direction: column;
+
 }
